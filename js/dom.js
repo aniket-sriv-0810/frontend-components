@@ -61,3 +61,11 @@ time3.addEventListener('click', ()=>{
 time4.addEventListener('click', ()=>{
     clearInterval(inter);
 });
+
+// CRUD operations
+let div = document.createElement('div');
+div.setAttribute('id' , "new-elem");
+div.classList.add("div-elem");
+div.innerHTML = "Aniket Srivastava performed CRUD operations...";
+div.style.color ="#ac3d2b";
+document.body.appendChild(div);
